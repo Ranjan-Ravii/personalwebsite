@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(225, 245, 245);
+}
+
+nav ul {
+    text-decoration: none;
+    float: right;
+    margin-left: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+nav ul li a {
+    color: darkblue;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 5px;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: rgb(6, 6, 94);
+    border-radius: 9px;
+}
+
+.navigation {
+    margin: 30px 10px;
+
+}
+.img {
+    height: 250px;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.header {
+    position:relative;
+    top: 15px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+ footer{
+    text-align: center;
+    font-weight: bolder;
+
+    margin: 80px;
+ }
+
+
+/* css of animation in about */
+
+.isolate {
+    isolation: isolate; 
+    position: relative;
+}
+
+
+.a1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    mix-blend-mode:screen;
+    animation: mymove 6s;
+animation-fill-mode: forwards;
+}
+@keyframes mymove {
+from {background-color: #d9f5ec; margin-top:36px;margin-left:220px;}
+to {background-color: #479AD6; margin-top:19px;margin-left:100px;}
+}
+.a2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    mix-blend-mode:screen;
+    animation: mymove2 6s;
+animation-fill-mode: forwards;
+}
+@keyframes mymove2 {
+from {background-color: #d9f5ec; margin-top:36px; margin-left:70px;}
+to {background-color: #006BC8; margin-left:0px; margin-top:19px;}
+}
+
